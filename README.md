@@ -39,6 +39,8 @@ sh train_exp.sh
 
 Traing the model on RAF-DB clean train set (Swin-T backbone) should achieve over 92.31\% accuracy on RAF-DB test set. The best accuracy could reach 92.86\%. As for the mean accuracy of all classes, it should reach 87.71\%.
 
+![](https://github.com/zyh-uaiaaaa/Mine-Extra-Knowledge/blob/main/code/imgs/accuracy.png)
+
 
 
 
