@@ -14,11 +14,13 @@ Facial expression data is characterized by a significant imbalance, with most co
 
 **Dataset**
 
-[RAF-DB](http://www.whdeng.cn/RAF/model1.html#dataset) is aligned for Swin-T and is incorporated under the folder ./dataset
+[RAF-DB](http://www.whdeng.cn/RAF/model1.html#dataset) is aligned for Swin-T and should be incorporated under the folder ./dataset
+
+You can download the dataset from this [link](https://drive.google.com/file/d/1GiVsA5sbhc-12brGrKdTIdrKZnXz9vtZ/view?usp=drive_link)
 
 **Pretrained backbone model**
 
-Pretrained model is included in the code. 
+Pretrained model should be included under the code directory and can be downloaded from this [link](https://drive.google.com/file/d/1GiVsA5sbhc-12brGrKdTIdrKZnXz9vtZ/view?usp=drive_link). 
 
 **Train the model**
 
@@ -35,7 +37,7 @@ sh train_exp.sh
 
 **Accuracy**
 
-Traing the model on RAF-DB clean train set (Swin-T backbone) should achieve over 92.31\% accuracy on RAF-DB test set.
+Traing the model on RAF-DB clean train set (Swin-T backbone) should achieve over 92.31\% accuracy on RAF-DB test set. The best accuracy could reach 92.86\%. As for the mean accuracy of all classes, it should reach 87.71\%.
 
 
 
